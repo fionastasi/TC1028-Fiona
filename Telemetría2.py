@@ -60,9 +60,6 @@ def main():
                     ax.set_title('Última vuelta Q3 (Checo vs Leclerc)')
                     ax.legend()
                     plt.show()
-                print("Selecciona otra opción")
-                menuInicial()
-                opcion=int(input())
                 if opcion2 == 2:
                     fig, ax = plt.subplots(figsize=(15,8))
                     for driver in ['PER', 'SAI']:
@@ -74,9 +71,6 @@ def main():
                     ax.set_title('Última vuelta Q3 (Checo vs Sainz)')
                     ax.legend()
                     plt.show()
-                print("Selecciona otra opción")
-                menuInicial()
-                opcion=int(input())
                 if opcion2 == 3:
                     fig, ax = plt.subplots(figsize=(15,8))
                     for driver in ['PER', 'VER']:
@@ -88,9 +82,6 @@ def main():
                     ax.set_title('Última vuelta Q3 (Checo vs Verstappen)')
                     ax.legend()
                     plt.show()
-                print("Selecciona otra opción")
-                menuInicial()
-                opcion=int(input())
                 if opcion2 == 4:
                     pilotos= ['PER', 'OCO']
                     fig, ax = plt.subplots(figsize=(15,8))
@@ -103,9 +94,6 @@ def main():
                     ax.set_title('Última vuelta Q3 (Checo vs Ocon)')
                     ax.legend()
                     plt.show()
-                print("Selecciona otra opción")
-                menuInicial()
-                opcion=int(input())
         elif opcion == 3:
             print("Gracias por su visita!")
             break
