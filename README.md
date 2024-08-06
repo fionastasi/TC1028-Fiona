@@ -1,10 +1,8 @@
-# Telemetría F1
-Analizaremos las diferencias que el corredor mexicano de F1 Checo Perez y el monegasco Charles Leclerc tuvieron en sus tiempos de calificación en el circuito de Jeddah Corniche (Arabia Saudita) ocurrida el 26 de marzo del 2022 en el cual tras finalizar la sesión Checo Perez se llevó la Pole Position con una diferencia en tiempos de tan solo 0:0.025 segundos.
+# Analysis and Insights
+We will analyze the differences between the two drivers' styles, focusing on braking, speed, and acceleration. Using telemetry data from the qualifying session, we can identify the key moments that led to Checo Perez's victory and Charles Leclerc's defeat. Additionally, we will compare the qualifying results of the top 5 drivers, examining their times and speeds during their fastest laps.
 
-Seremos capaces de analizar las diferencias de ambos pilotos según su estilo de pilotaje, involucrando el frenado, velocidad y aceleración de respectivos pilotos, esto será mediante la telemetría de la calificación lo que nos dejará ver los momentos claves para la victoria de uno y la derrota del otro.
-Además de poder ver los resultados de la quali, así como comparar al top 5 corredores de la quali en sus tiempos y velocidad durante su vuelta más rápida.
+The engineering behind Formula 1 is fascinating and offers a great way to learn how to implement Python tools.
 
-La ingeniería que hay detrás de este deporte es bastante interesante y es una gran manera de aprender a implementar las herramientas de python. 
-
-Es importante considerar que para poder llevar a cabo este proyecto es fundamental haber descargado la librería fast f1 de antemano, esta se encuentra en la biblioteca de librerías de python y el manual de uso de esta librería se encuentra en este link: https://theoehrly.github.io/Fast-F1/index.html, trabajaremos con sus variantes tales como “fastf1.plotting”.
+# Requirements
+To carry out this project, you will need to download the Fast F1 library. This library is available in the Python package index, and its usage manual can be found here. We will also use its variants, such as fastf1.plotting.
 
